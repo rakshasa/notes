@@ -9,14 +9,16 @@ git clone https://github.com/rakshasa/lagopus.git
 #git clone git@github.com:rakshasa/lagopus.git
 
 cd lagopus/
-git checkout macos
+git checkout fix-macos
 ```
 
 
 Update Submodule
 ----------------
 
-Not needed if using 'rakshasa/lagopus' repository's 'macos' branch.
+*DO NOT USE.*
+
+Updating DPDK version. Note that lagopus' VM doesn't work with newer DPDK.
 
 ```
 git submodule update --init src/dpdk/
